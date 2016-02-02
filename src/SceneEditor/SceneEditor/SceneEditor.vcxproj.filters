@@ -1,0 +1,1217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{dac50675-c5f6-4075-9eed-3a634af5cc2d}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{e274bbb2-c58f-4551-802f-800225bea90d}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="MainUI">
+      <UniqueIdentifier>{986195d7-0043-4339-84f2-396c37fb6182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{a43e2145-680e-4579-81dc-ed4733e2de0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{38d721fa-b985-4158-9e53-f045edd763f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{1f8e5676-d457-4a54-87fb-5bca08322510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{1511886b-2e86-45c4-b36a-6a507058c394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="quazip">
+      <UniqueIdentifier>{a843cce5-144e-4343-a0a3-d95e044503bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="qwt">
+      <UniqueIdentifier>{bf6bcd82-3456-453b-92c7-279f9ad2bf59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{88e691b5-6be3-4e51-9c98-08069390da77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Resource\SceneEditor.qrc">
+      <Filter>Resource</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\ActionMng.h">
+      <Filter>Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\EditorScene.h">
+      <Filter>Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\EditorView.h">
+      <Filter>Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\GSLayer.h">
+      <Filter>Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\GSScreen.h">
+      <Filter>Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\Project.h">
+      <Filter>Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\AssetDock.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\AssetDock.ui">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\AssetModel.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\FileCopyDlg.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\FileOpDlg.ui">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\FolderCopyDlg.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\FolderDelDlg.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\ItemDock.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\ItemDock.ui">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\LayerDock.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\LayerDock.ui">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\MsgDock.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\MsgDock.ui">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\SceneEditor.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\SceneEditor.ui">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\ScreenDock.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\ScreenDock.ui">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\ScreenWidget.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\ScreenWidget.ui">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\ScaleDlg.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\ScaleDlg.ui">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\ScreenMng.h">
+      <Filter>Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\ItemDelegate.h">
+      <Filter>Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\ImageSwitcher.h">
+      <Filter>Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\LayerModel.h">
+      <Filter>Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\ItemModel.h">
+      <Filter>Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\Simulator.h">
+      <Filter>Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\SimConfigDlg.ui">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\SimConfigDlg.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="quazip\quazipfile.h">
+      <Filter>quazip</Filter>
+    </CustomBuild>
+    <CustomBuild Include="quazip\quaziodevice.h">
+      <Filter>quazip</Filter>
+    </CustomBuild>
+    <CustomBuild Include="quazip\quagzipfile.h">
+      <Filter>quazip</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\MapDock.ui">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\MapDock.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\NewProjectDlg.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\NewProjectDlg.ui">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\DockMng.h">
+      <Filter>Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\AttrDock.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\AttrEditor.ui">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\AttrEditor.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\ImageLineEdit.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qwt\qwt_scale_widget.h">
+      <Filter>qwt</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\GSView.h">
+      <Filter>Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\ViewScale.h">
+      <Filter>Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\ItemSignal.h">
+      <Filter>Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\AuthDlg.ui">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\AuthDlg.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\Auth.h">
+      <Filter>Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\AboutDlg.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\AboutDlg.ui">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\Cache.h">
+      <Filter>Scene</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\ShortcutDlg.ui">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\ShortcutDlg.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\KeySetDlg.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\KeySetDlg.ui">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\EffectModel.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\EffectDock.h">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI\EffectDock.ui">
+      <Filter>MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Scene\TimerService.h">
+      <Filter>Scene</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\delItem.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\addItem.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\delete.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\invisible.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\visible.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\unlock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\lock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\alignUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\alignLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\alignRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\alignDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\moveTop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\moveBottom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\zoomIn.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\zoomOut.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\undo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\redo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\select.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\scrollDrag.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\open.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\close.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\save.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\saveAs.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\qrc_SceneEditor.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ActionMng.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ActionMng.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ActionMng.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\CmdItem.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\CmdLayer.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\EditorScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EditorScene.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EditorScene.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\EditorView.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EditorView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EditorView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GSItem.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GSLayer.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_GSLayer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_GSLayer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GSScreen.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_GSScreen.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_GSScreen.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Project.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Project.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Project.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\AppMod.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Log.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ModAccess.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\QFileOp.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\RtUID.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\Asset.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\AssetDock.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AssetDock.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AssetDock.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\AssetModel.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AssetModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AssetModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\FileCopyDlg.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FileCopyDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FileCopyDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\FolderCopyDlg.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FolderCopyDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FolderCopyDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\FolderDelDlg.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FolderDelDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FolderDelDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\ItemDock.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ItemDock.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ItemDock.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\LayerDock.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LayerDock.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LayerDock.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\MsgDock.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MsgDock.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MsgDock.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\SceneEditor.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SceneEditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SceneEditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\ScreenDock.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ScreenDock.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ScreenDock.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\ScreenWidget.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ScreenWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ScreenWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="PreHeader.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\ScaleDlg.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ScaleDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ScaleDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\JsonConvert.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ScreenMng.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ScreenMng.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ScreenMng.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ItemDelegate.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ItemDelegate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ItemDelegate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ItemFactory.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ImageSwitcher.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ImageSwitcher.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ImageSwitcher.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\BoolImage.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\LayerModel.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LayerModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LayerModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ItemModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ItemModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ItemModel.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\JsonReader.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\JsonWriter.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ItemAlign.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Simulator.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Simulator.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Simulator.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\SimConfigDlg.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SimConfigDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SimConfigDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\qioapi.cpp">
+      <Filter>quazip</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\quazipfile.cpp">
+      <Filter>quazip</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\quazip.cpp">
+      <Filter>quazip</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\quazipnewinfo.cpp">
+      <Filter>quazip</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\quazipfileinfo.cpp">
+      <Filter>quazip</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_quazipfile.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_quazipfile.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\quazipdir.cpp">
+      <Filter>quazip</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_quaziodevice.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_quaziodevice.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\quaziodevice.cpp">
+      <Filter>quazip</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_quagzipfile.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_quagzipfile.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\quagzipfile.cpp">
+      <Filter>quazip</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\quacrc32.cpp">
+      <Filter>quazip</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\quaadler32.cpp">
+      <Filter>quazip</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\JlCompress.cpp">
+      <Filter>quazip</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\unzip.cpp">
+      <Filter>quazip</Filter>
+    </ClCompile>
+    <ClCompile Include="quazip\zip.cpp">
+      <Filter>quazip</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\MapDock.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MapDock.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MapDock.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Path.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\NewProjectDlg.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NewProjectDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NewProjectDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\DockMng.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DockMng.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DockMng.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\AttrDock.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AttrDock.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AttrDock.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\AttrEditor.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AttrEditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AttrEditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\ImageLineEdit.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ImageLineEdit.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ImageLineEdit.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ItemClipboard.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GSInfo.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="qwt\qwt_transform.cpp">
+      <Filter>qwt</Filter>
+    </ClCompile>
+    <ClCompile Include="qwt\qwt_text_engine.cpp">
+      <Filter>qwt</Filter>
+    </ClCompile>
+    <ClCompile Include="qwt\qwt_text.cpp">
+      <Filter>qwt</Filter>
+    </ClCompile>
+    <ClCompile Include="qwt\qwt_scale_widget.cpp">
+      <Filter>qwt</Filter>
+    </ClCompile>
+    <ClCompile Include="qwt\qwt_scale_map.cpp">
+      <Filter>qwt</Filter>
+    </ClCompile>
+    <ClCompile Include="qwt\qwt_scale_engine.cpp">
+      <Filter>qwt</Filter>
+    </ClCompile>
+    <ClCompile Include="qwt\qwt_scale_draw.cpp">
+      <Filter>qwt</Filter>
+    </ClCompile>
+    <ClCompile Include="qwt\qwt_scale_div.cpp">
+      <Filter>qwt</Filter>
+    </ClCompile>
+    <ClCompile Include="qwt\qwt_point_polar.cpp">
+      <Filter>qwt</Filter>
+    </ClCompile>
+    <ClCompile Include="qwt\qwt_painter.cpp">
+      <Filter>qwt</Filter>
+    </ClCompile>
+    <ClCompile Include="qwt\qwt_math.cpp">
+      <Filter>qwt</Filter>
+    </ClCompile>
+    <ClCompile Include="qwt\qwt_interval.cpp">
+      <Filter>qwt</Filter>
+    </ClCompile>
+    <ClCompile Include="qwt\qwt_color_map.cpp">
+      <Filter>qwt</Filter>
+    </ClCompile>
+    <ClCompile Include="qwt\qwt_clipper.cpp">
+      <Filter>qwt</Filter>
+    </ClCompile>
+    <ClCompile Include="qwt\qwt_abstract_scale_draw.cpp">
+      <Filter>qwt</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qwt_scale_widget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qwt_scale_widget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_GSView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_GSView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GSView.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ViewScale.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ViewScale.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ViewScale.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ItemSignal.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ItemSignal.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ItemSignal.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\AuthDlg.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AuthDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AuthDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Auth.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Auth.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Auth.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AboutDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AboutDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\AboutDlg.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\UIAccess.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\zutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\adler32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\compress.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\crc32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\deflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzclose.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzlib.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzread.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzwrite.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\infback.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inffast.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inftrees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\trees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\uncompr.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\CacheObs.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Cache.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Cache.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Cache.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\ShortcutDlg.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ShortcutDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ShortcutDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\KeySetDlg.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_KeySetDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_KeySetDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\EffectDock.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EffectModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EffectModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI\EffectModel.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EffectDock.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EffectDock.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TimerService.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TimerService.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TimerService.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\MoveRecorder.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ItemQueue.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scene\CmdID.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\CmdItem.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\CmdLayer.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GSItem.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\AppMod.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Log.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Macro.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ModAccess.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ModDeclare.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\QFileOp.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\RtUID.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="MainUI\Asset.h">
+      <Filter>MainUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_AssetDock.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_FileOpDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ItemDock.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_LayerDock.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MsgDock.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SceneEditor.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ScreenDock.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ScreenWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AppModAlias.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="PreHeader.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ScaleDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\JsonConvert.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\ItemInfo.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\ItemFactory.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\BoolImage.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\JsonKeyword.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\JsonReader.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\JsonWriter.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\ItemAlign.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SimConfigDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Setting.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\quazipnewinfo.h">
+      <Filter>quazip</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\zip.h">
+      <Filter>quazip</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\quazip.h">
+      <Filter>quazip</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\quazip_global.h">
+      <Filter>quazip</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\quazipfileinfo.h">
+      <Filter>quazip</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\unzip.h">
+      <Filter>quazip</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\quazipdir.h">
+      <Filter>quazip</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\quacrc32.h">
+      <Filter>quazip</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\quachecksum32.h">
+      <Filter>quazip</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\quaadler32.h">
+      <Filter>quazip</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\JlCompress.h">
+      <Filter>quazip</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\crypt.h">
+      <Filter>quazip</Filter>
+    </ClInclude>
+    <ClInclude Include="quazip\ioapi.h">
+      <Filter>quazip</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MapDock.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Path.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_NewProjectDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_AttrEditor.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Guard.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\ItemClipboard.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GSInfo.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="qwt\qwt_transform.h">
+      <Filter>qwt</Filter>
+    </ClInclude>
+    <ClInclude Include="qwt\qwt_text_engine.h">
+      <Filter>qwt</Filter>
+    </ClInclude>
+    <ClInclude Include="qwt\qwt_text.h">
+      <Filter>qwt</Filter>
+    </ClInclude>
+    <ClInclude Include="qwt\qwt_scale_map.h">
+      <Filter>qwt</Filter>
+    </ClInclude>
+    <ClInclude Include="qwt\qwt_scale_engine.h">
+      <Filter>qwt</Filter>
+    </ClInclude>
+    <ClInclude Include="qwt\qwt_scale_draw.h">
+      <Filter>qwt</Filter>
+    </ClInclude>
+    <ClInclude Include="qwt\qwt_scale_div.h">
+      <Filter>qwt</Filter>
+    </ClInclude>
+    <ClInclude Include="qwt\qwt_point_polar.h">
+      <Filter>qwt</Filter>
+    </ClInclude>
+    <ClInclude Include="qwt\qwt_painter.h">
+      <Filter>qwt</Filter>
+    </ClInclude>
+    <ClInclude Include="qwt\qwt_math.h">
+      <Filter>qwt</Filter>
+    </ClInclude>
+    <ClInclude Include="qwt\qwt_interval.h">
+      <Filter>qwt</Filter>
+    </ClInclude>
+    <ClInclude Include="qwt\qwt_global.h">
+      <Filter>qwt</Filter>
+    </ClInclude>
+    <ClInclude Include="qwt\qwt_color_map.h">
+      <Filter>qwt</Filter>
+    </ClInclude>
+    <ClInclude Include="qwt\qwt_clipper.h">
+      <Filter>qwt</Filter>
+    </ClInclude>
+    <ClInclude Include="qwt\qwt_abstract_scale_draw.h">
+      <Filter>qwt</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_AuthDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\AuthOp.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\AuthCode.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_AboutDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\UIAccess.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zutil.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\crc32.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\deflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\gzguts.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffast.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffixed.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inftrees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\trees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zconf.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\CacheObs.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ShortcutDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_KeySetDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_EffectDock.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\MoveRecorder.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\ItemQueue.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource\myapp.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,292 @@
+{
+  "Version": 100,
+  "Header": {
+    "sceneCount": 2,
+    "sceneSize": {
+      "height": 640,
+      "width": 1136
+    }
+  },
+  "Body": {
+    "scenes": [
+      {
+        "regions": [
+          {
+            "components": [
+              {
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "z": 0,
+                "scale": 1,
+                "image": "beijing.png"
+              }
+            ],
+            "size": {
+              "height": 640,
+              "width": 1136
+            },
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "name": "far_view",
+            "velocity": 25,
+            "z": 0
+          },
+          {
+            "components": [
+              {
+                "position": {
+                  "x": 0,
+                  "y": -105
+                },
+                "z": 10,
+                "scale": 1,
+                "image": "title.png"
+              },
+              {
+                "position": {
+                  "x": -377,
+                  "y": 167
+                },
+                "z": 10,
+                "scale": 1,
+                "image": "wall2.png"
+              },
+              {
+                "position": {
+                  "x": 121,
+                  "y": 155
+                },
+                "z": 10,
+                "scale": 1,
+                "image": "wall.png"
+              },
+              {
+                "position": {
+                  "x": -288,
+                  "y": 63
+                },
+                "z": 10,
+                "scale": 1,
+                "image": "baoxiang.png"
+              },
+              {
+                "position": {
+                  "x": 230,
+                  "y": 50
+                },
+                "z": 10,
+                "scale": 1,
+                "image": "caibao.png"
+              },
+              {
+                "position": {
+                  "x": -319,
+                  "y": -78
+                },
+                "z": 10,
+                "scale": 1,
+                "image": "dimian2.png"
+              },
+              {
+                "position": {
+                  "x": 186,
+                  "y": 10
+                },
+                "z": 10,
+                "scale": 1,
+                "image": "dimian.png"
+              },
+              {
+                "position": {
+                  "x": -273,
+                  "y": 0
+                },
+                "z": 10,
+                "scale": 1,
+                "image": "tanzi.png"
+              }
+            ],
+            "size": {
+              "height": 640,
+              "width": 1136
+            },
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "name": "middle_view",
+            "velocity": 20,
+            "z": 10
+          },
+          {
+            "components": [
+              {
+                "position": {
+                  "x": -23,
+                  "y": -259
+                },
+                "z": 30,
+                "scale": 1,
+                "image": "qiangjing.png"
+              }
+            ],
+            "size": {
+              "height": 640,
+              "width": 1136
+            },
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "name": "near_view",
+            "velocity": 30,
+            "z": 30
+          }
+        ]
+      },
+      {
+        "regions": [
+          {
+            "components": [
+              {
+                "position": {
+                  "x": 0,
+                  "y": 0
+                },
+                "z": 0,
+                "scale": 1,
+                "image": "beijing.png"
+              }
+            ],
+            "size": {
+              "height": 640,
+              "width": 1136
+            },
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "name": "far_view",
+            "velocity": 25,
+            "z": 0
+          },
+          {
+            "components": [
+              {
+                "position": {
+                  "x": 0,
+                  "y": -105
+                },
+                "z": 10,
+                "scale": 1,
+                "image": "title.png"
+              },
+              {
+                "position": {
+                  "x": -377,
+                  "y": 167
+                },
+                "z": 10,
+                "scale": 1,
+                "image": "wall2.png"
+              },
+              {
+                "position": {
+                  "x": 121,
+                  "y": 155
+                },
+                "z": 10,
+                "scale": 1,
+                "image": "wall.png"
+              },
+              {
+                "position": {
+                  "x": -288,
+                  "y": 63
+                },
+                "z": 10,
+                "scale": 1,
+                "image": "baoxiang.png"
+              },
+              {
+                "position": {
+                  "x": 230,
+                  "y": 50
+                },
+                "z": 10,
+                "scale": 1,
+                "image": "caibao.png"
+              },
+              {
+                "position": {
+                  "x": -319,
+                  "y": -78
+                },
+                "z": 10,
+                "scale": 1,
+                "image": "dimian2.png"
+              },
+              {
+                "position": {
+                  "x": 186,
+                  "y": 10
+                },
+                "z": 10,
+                "scale": 1,
+                "image": "dimian.png"
+              },
+              {
+                "position": {
+                  "x": -273,
+                  "y": 0
+                },
+                "z": 10,
+                "scale": 1,
+                "image": "tanzi.png"
+              }
+            ],
+            "size": {
+              "height": 640,
+              "width": 1136
+            },
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "name": "middle_view",
+            "velocity": 20,
+            "z": 10
+          },
+          {
+            "components": [
+              {
+                "position": {
+                  "x": -23,
+                  "y": -259
+                },
+                "z": 30,
+                "scale": 1,
+                "image": "qiangjing.png"
+              }
+            ],
+            "size": {
+              "height": 640,
+              "width": 1136
+            },
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "name": "near_view",
+            "velocity": 30,
+            "z": 30
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,2 +1,6 @@
-# SceneEditor
-一款基于QT 5.3.2的游戏地图编辑器
+#
+whisper
+
+a map scene editor and viewer
+
+copyright ccplaying

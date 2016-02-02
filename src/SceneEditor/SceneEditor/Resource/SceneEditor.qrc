@@ -1,0 +1,60 @@
+<RCC>
+    <qresource prefix="/Icon">
+        <file alias="delItem.png">delItem.png</file>
+        <file alias="addItem.png">addItem.png</file>
+        <file alias="delete.png">delete.png</file>
+        <file alias="invisible.png">invisible.png</file>
+        <file alias="visible.png">visible.png</file>
+        <file alias="unlock.png">unlock.png</file>
+        <file alias="lock.png">lock.png</file>
+        <file alias="alignUp.png">alignUp.png</file>
+        <file alias="alignLeft.png">alignLeft.png</file>
+        <file alias="alignRight.png">alignRight.png</file>
+        <file alias="alignDown.png">alignDown.png</file>
+        <file alias="moveTop.png">moveTop.png</file>
+        <file alias="moveBottom.png">moveBottom.png</file>
+        <file alias="zoomIn.png">zoomIn.png</file>
+        <file alias="zoomOut.png">zoomOut.png</file>
+        <file alias="undo.png">undo.png</file>
+        <file alias="redo.png">redo.png</file>
+        <file alias="select.png">select.png</file>
+        <file alias="scrollDrag.png">scrollDrag.png</file>
+        <file alias="open.png">open.png</file>
+        <file alias="new.png">new.png</file>
+        <file>close.png</file>
+        <file>save.png</file>
+        <file>saveAs.png</file>
+        <file>fitIn.png</file>
+        <file>quit.png</file>
+        <file>preview.png</file>
+        <file>play.png</file>
+        <file>stop.png</file>
+        <file>config.png</file>
+        <file>addMap.png</file>
+        <file>alignCenter.png</file>
+        <file>delMap.png</file>
+        <file>createMap.png</file>
+        <file>load.png</file>
+        <file>openProject.png</file>
+        <file>newProject.png</file>
+        <file>zipProject.png</file>
+        <file>delAsset.png</file>
+        <file>addAssetFolder.png</file>
+        <file>addAsset.png</file>
+        <file>previewAsset.png</file>
+        <file>explorer.png</file>
+        <file>active.png</file>
+        <file>copy.png</file>
+        <file>paste.png</file>
+        <file>cut.png</file>
+        <file>about.png</file>
+        <file>logo.png</file>
+        <file>effects.png</file>
+        <file>queueDown.png</file>
+        <file>queueLeft.png</file>
+        <file>queueRight.png</file>
+        <file>queueTop.png</file>
+        <file>effectIcon.png</file>
+        <file>addObject.png</file>
+    </qresource>
+</RCC>
